@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chroma - Clothing Brand</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-transform: uppercase;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .brand-section {
+            display: flex;
+            justify-content: center;
+align-items: center;
+            flex-direction: column;
+        }
+        .brand-section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        .about {
+            background-color: #fff;
+            padding: 40px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+ .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chroma</h1>
+        <p>Modern Clothing Brand</p>
+    </header>
+
+    <div class="container">
+        <section class="brand-section">
+            <h2>Our Latest Design</h2>
+            <img src="/mnt/data/191F42A3-0953-4D5C-8F99-231792239295.jpeg" alt="Chroma T-Shirt Design">
+        </section>
+
+<section class="about">
+            <h2>About Chroma</h2>
+            <p>Chroma is a modern clothing brand that brings unique and artistic designs to life. We focus on bold graphics, blending streetwear aesthetics with timeless cityscapes and dynamic visuals. Each piece is crafted with attention to detail, ensuring both style and comfort.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Follow Us on Social Media</p>
+        <div class="footer-links">
+            <a href="https://www.instagram.com/x.bxvv/">Instagram</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+</body>
+</html>
